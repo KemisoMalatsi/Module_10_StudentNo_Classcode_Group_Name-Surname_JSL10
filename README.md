@@ -21,7 +21,7 @@ The Escape Vanilla JS Challenge is an interactive web-based project focusing on 
 
 #### Debugging Tasks
 
-1. **Correct the ID used in the event listener for Room 1.**
+1. **solveRoom1**
 2. **Use the correct element ID when displaying results for Room 1.**
 3. **Add the missing 'async' keyword to the JS concepts set.**
 4. **Correct the function call to find the intersection of `jsConcepts` and `reactConcepts` for Room 2.**
