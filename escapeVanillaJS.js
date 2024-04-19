@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     document.getElementById("solveRoom2").addEventListener("click", () => {
-        const jsConcepts = new Set(['closure', 'scope', 'hoisting']);
+        const jsConcepts = new Set(['closure', 'scope', 'hoisting','async' ]);
         // 🪲 Bug: What's mssing from JS concepts?
         const reactConcepts = new Set(['components', 'jsx', 'hooks', 'async', 'state management']);
         // 🪲 Bug: Incorrect function call
@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("solveRoom3").addEventListener("click", async () => {
         try{
             const response = await fetch('directions.json');
-            const directions = response.json()
+            const directions = await response.json()
 
             const message = await navigateLabyrinth(directions);
 
